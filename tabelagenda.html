@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+</head>
+
+<body>
+    <div id="tabelagenda">
+        <table>
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>Hora</th>
+                    <th>Nome</th>
+                    <th>Sala</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><input type="radio"></td>
+                    <td>08:00</td>
+                    <td>João</td>
+                    <td>Sala 6</td>
+                    <td>Na espera </td>
+                </tr>
+                <tr>
+                    <td><input type="radio"></td>
+                    <td>09:00</td>
+                    <td>Daniel</td>
+                    <td>Sala 5</td>
+                    <td>Em andamento</td>
+                </tr>
+                <tr>
+                    <td><input type="radio"></td>
+                    <td>10:00</td>
+                    <td>Heitor</td>
+                    <td>Sala 4</td>
+                    <td>Terminado</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+
+<style>
+    table {
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    table td,
+    table th {
+        border: 1px solid black;
+        padding: 8px;
+    }
+
+    table th {
+        background-color: black;
+        color: white;
+    }
+
+    table tr:nth-child(even) {
+        background-color: #f2f2f2;
+    }
+</style>
+
+</html>

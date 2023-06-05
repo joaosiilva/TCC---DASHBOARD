@@ -9,6 +9,12 @@
 </head>
 
 <body>
+    <button class="buttonadc">Novo agendamento</button>
+
+    <div id="divBusca">
+        <input type="text" placeholder="Buscar">
+    </div>
+
     <div id="tabelagenda">
         <table>
             <thead>
@@ -50,6 +56,41 @@
 </body>
 
 <style>
+    .buttonadc {
+        border: none;
+        color: white;
+        padding: 15px 15px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 14px;
+        margin: 20px 0 20px;
+        transition-duration: 0.5s;
+        cursor: pointer;
+    }
+
+    .buttonadc {
+        background-color: white;
+        color: black;
+        border: 2px solid #008CBA;
+        padding-left: 15px;
+        border-radius: 20px;
+    }
+
+    .buttonadc:hover {
+        background-color: #008CBA;
+        color: white;
+    }
+
+    #divBusca {
+        margin-left: 10px;
+        border: solid 1px;
+        border-radius: 15px;
+        width: 300px;
+        display: inline-flex;
+        text-decoration: none;
+    }
+    
     table {
         border-collapse: collapse;
         width: 100%;
